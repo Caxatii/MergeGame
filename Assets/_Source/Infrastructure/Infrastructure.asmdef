@@ -1,0 +1,7 @@
+{
+  "name": "Infrastructure",
+  "references": [
+    "ContractInterfaces",
+    "DomainTransfer"
+  ]
+}
