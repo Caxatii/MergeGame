@@ -1,7 +1,7 @@
 using System;
-using _Source.ContractInterfaces.Domain;
+using ContractInterfaces.Domain;
 
-namespace _Source.ContractInterfaces.Application.Factories
+namespace ContractInterfaces.Application.Factories
 {
     public interface IUnitFactory
     {

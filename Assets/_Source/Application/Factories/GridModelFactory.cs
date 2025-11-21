@@ -1,9 +1,11 @@
-using _Source.ContractInterfaces.Application.Factories;
-using _Source.ContractInterfaces.Domain;
-using _Source.ContractInterfaces.Repositories;
-using _Source.Domain;
+using ContractInterfaces.Application.Factories;
+using ContractInterfaces.Domain;
+using ContractInterfaces.Repositories;
+using ContractInterfaces.Repositories.Grid;
+using Domain;
+using Domain.Grid;
 
-namespace _Source.Application.Factories
+namespace Application.Factories
 {
     public class GridModelFactory : IGridModelFactory
     {

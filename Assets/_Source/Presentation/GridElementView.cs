@@ -1,19 +1,20 @@
 using System;
-using _Source.ContractInterfaces.Presentation;
+using ContractInterfaces.Presentation;
+using ContractInterfaces.Presentation.Grid;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace _Source.Presentation
+namespace Presentation
 {
-    public class GridElementView : GridElementViewProvider, IPointerClickHandler
+    public class GridElementView : GridElementViewBase, IPointerClickHandler
     {
         [SerializeField] private Image _background;
         [SerializeField] private Image _view;
         [field: SerializeField] public override Vector2Int Position { get; protected set; }
 
         private Color _defaultColor;
-        
+
         private void Awake()
         {
             _defaultColor = _background.color;

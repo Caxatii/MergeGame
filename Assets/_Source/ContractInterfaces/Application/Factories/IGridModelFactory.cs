@@ -1,7 +1,8 @@
-using _Source.ContractInterfaces.Domain;
-using _Source.ContractInterfaces.Repositories;
+using ContractInterfaces.Domain;
+using ContractInterfaces.Repositories;
+using ContractInterfaces.Repositories.Grid;
 
-namespace _Source.ContractInterfaces.Application.Factories
+namespace ContractInterfaces.Application.Factories
 {
     public interface IGridModelFactory
     {

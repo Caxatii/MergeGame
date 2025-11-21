@@ -1,4 +1,4 @@
-namespace _Source.ContractInterfaces.Repositories
+namespace ContractInterfaces.Repositories
 {
     public interface IRepository
     {

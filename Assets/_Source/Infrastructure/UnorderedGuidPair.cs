@@ -1,6 +1,6 @@
 using System;
 
-namespace _Source.Infrastructure
+namespace Infrastructure
 {
     public struct UnorderedGuidPair : IEquatable<UnorderedGuidPair>
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace _Source.Domain
+namespace Domain.Reactive
 {
     public interface IReactiveValue<out T> where T : struct
     {

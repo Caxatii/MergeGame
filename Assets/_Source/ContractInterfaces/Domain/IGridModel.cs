@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace _Source.ContractInterfaces.Domain
+namespace ContractInterfaces.Domain
 {
     public interface IGridModel : IEnumerable<(Vector2Int, IUnit)>
     {

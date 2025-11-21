@@ -1,6 +1,6 @@
 using System;
 
-namespace _Source.ContractInterfaces.Domain
+namespace ContractInterfaces.Domain
 {
     public interface IUnit
     {

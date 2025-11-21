@@ -1,8 +1,8 @@
 using System;
-using _Source.Domain.DomainTransfer;
+using Domain.DomainTransfer;
 using UnityEngine;
 
-namespace _Source.Infrastructure.Repositories
+namespace Infrastructure.Repositories
 {
     [Serializable]
     public struct CellStateColor

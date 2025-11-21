@@ -1,7 +1,6 @@
-
 using System;
 
-namespace _Source.Domain
+namespace Domain.Reactive
 {
     public class ReactiveValue<T> : IReactiveValue<T> where T : struct
     {
@@ -12,9 +11,9 @@ namespace _Source.Domain
             get => _value;
             set
             {
-                if (_value.Equals(value)) 
+                if (_value.Equals(value))
                     return;
-                
+
                 _value = value;
                 Changed?.Invoke(value);
             }

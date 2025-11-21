@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using UnityEditor;
 
-namespace _Source.Editor
+namespace Editor
 {
     public class ScriptableObjectContextMenu : UnityEditor.Editor
     {

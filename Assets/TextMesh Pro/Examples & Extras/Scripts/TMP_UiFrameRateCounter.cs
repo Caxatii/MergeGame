@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+using Application = UnityEngine.Application;
 
 namespace TMPro.Examples
 {
