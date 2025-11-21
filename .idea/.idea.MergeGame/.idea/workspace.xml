@@ -5,144 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20ed6b5f-d3af-49e1-a7fb-630accf6164f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TextMeshPro.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/TextMeshPro.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/Cells.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/UseCases.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/Cell.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Merge.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Merge.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Merge.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MergeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MergeGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/CellStateRenderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/Cells/CellStateRenderService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/CellStateRenderService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/Cells/CellStateRenderService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/CellStateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/Cells/CellStateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/CellStateService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/Cells/CellStateService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/Factories/GridModelFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Factories/GridModelFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/Factories/UnitFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Factories/UnitFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridDrawerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridDrawerService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridDrawerService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridDrawerService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridMergeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridMergeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridMergeService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridMergeService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridMergeUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridMergeUseCase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridMergeUseCase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridMergeUseCase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridPointerMoverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridPointerMoverService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridPointerMoverService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridPointerMoverService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridRandomPlaceUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridRandomPlaceUseCase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridRandomPlaceUseCase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridRandomPlaceUseCase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridUnitSpawnUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridUnitSpawnUseCase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/GridUnitSpawnUseCase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridUnitSpawnUseCase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Boot_README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Boot_README.md.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Factories.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Bootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Factories/IGridModelFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Factories/IGridModelFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Factories/IUnitFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Factories/IUnitFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/ICellStateService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/ICellStateService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/ICellStateService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/ICellStateService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/IGridUnitSpawnUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/UseCases/IGridUnitSpawnUseCase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/IGridUnitSpawnUseCase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/UseCases/IGridUnitSpawnUseCase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/IMergeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IMergeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/IMergeService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IMergeService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/IService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/IService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/ICell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/ICell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/IGridModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/IGridModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/IUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/IUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridColorizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridColorizer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridColorizer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridColorizer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridDrawer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridInputReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridInputReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridInputReader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridViewSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridViewSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/IGridViewSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridViewSpawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/GridElementViewProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/GridElementViewBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/GridElementViewProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/GridElementViewBase.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/IGridElementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/IGridElementView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/IGridElementView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/IGridElementView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/ICellColorizeRepositoryCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/Cell/ICellColorizeRepositoryCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/ICellColorizeRepositoryCollection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/Cell/ICellColorizeRepositoryCollection.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IGridElementRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridElementRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IGridElementRepository.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridElementRepository.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IGridElementRepositoryCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridElementRepositoryCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IGridElementRepositoryCollection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridElementRepositoryCollection.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IGridRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IGridRepository.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridRepository.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IMergeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Merge/IMergeRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IMergeRepository.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Merge/IMergeRepository.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IMergeResultRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Merge/IMergeResultRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IMergeResultRepository.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Merge/IMergeResultRepository.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/Cell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/Cell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/Cell.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/CellPointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/CellPointer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/CellPointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/CellPointer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/DomainTransfer/CellState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/DomainTransfer/CellState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/GridModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/GridModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/GridModel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/GridModel.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/ICellPointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/ICellPointer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/ICellPointer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/ICellPointer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/Reactive/IReactiveValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Reactive/IReactiveValue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/Reactive/ReactiveValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Reactive/ReactiveValue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Domain/Unit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Domain/Grid/Unit.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Editor/ScriptableObjectContextMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Editor/ScriptableObjectContextMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/General_README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/General_README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridColorizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridColorizer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridColorizer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridColorizer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridInputReader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridInputReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridInputReader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridViewDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridViewDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewDrawer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridViewSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/GridViewSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewSpawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/CellStateColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/CellStateColor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/GridColorizeRepositoryCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Grid/GridColorizeRepositoryCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/GridColorizeRepositoryCollection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Grid/GridColorizeRepositoryCollection.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/GridElementRepositoryCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Grid/GridElementRepositoryCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/GridElementRepositoryCollection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Grid/GridElementRepositoryCollection.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/MergeRepositoryCollection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Merge/MergeRepositoryCollection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/MergeRepositoryCollection.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Merge/MergeRepositoryCollection.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridColorizeRepositoryContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridColorizeRepositoryContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridColorizeRepositoryContainer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridColorizeRepositoryContainer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridElementRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridElementRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridElementRepository.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridElementRepository.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridElementRepositoryContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridElementRepositoryContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridElementRepositoryContainer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridElementRepositoryContainer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/GridRepository.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridRepository.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/MergeRepositoryContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Merge/MergeRepositoryContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/MergeRepositoryContainer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Merge/MergeRepositoryContainer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/MergeResultRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Merge/MergeResultRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/MergeResultRepository.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Merge/MergeResultRepository.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/UnorderedGuidPair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/UnorderedGuidPair.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridViewSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridViewSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/GridElementViewBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/GridElementViewBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/IGridElementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/IGridElementView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewFactory.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Source/Presentation/GridElementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Presentation/GridElementView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +185,7 @@
       <workItem from="1763557676542" duration="4044000" />
       <workItem from="1763578372664" duration="3881000" />
       <workItem from="1763735024446" duration="4260000" />
-      <workItem from="1763739582128" duration="319000" />
+      <workItem from="1763739582128" duration="3525000" />
     </task>
     <servers />
   </component>

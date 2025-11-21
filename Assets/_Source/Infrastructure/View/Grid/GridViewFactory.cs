@@ -6,18 +6,18 @@ using UnityEngine.UI;
 
 namespace Infrastructure.View.Grid
 {
-    public class GridViewSpawner : IGridViewSpawner
+    public class GridViewFactory : IGridViewSpawner
     {
         private readonly GridLayoutGroup _parent;
-        private readonly GridElementViewBase _prefab;
+        private readonly IGridElementView _prefab;
 
-        public GridViewSpawner(GridLayoutGroup parent, GridElementViewBase prefab)
+        public GridViewFactory(GridLayoutGroup parent, IGridElementView prefab)
         {
             _parent = parent;
             _prefab = prefab;
         }
 
-        public IGridView SpawnGrid(Vector2Int size)
+        public IGridView Create(Vector2Int size)
         {
             IList<IGridElementView> cells = new List<IGridElementView>();
 
@@ -28,9 +28,11 @@ namespace Infrastructure.View.Grid
             return new GridView(cells);
         }
 
-        private GridElementViewBase CreateCell(Vector2Int position)
+        private IGridElementView CreateCell(Vector2Int position)
         {
-            GridElementViewBase cell = Object.Instantiate(_prefab, _parent.transform);
+            var cell = Object.Instantiate(_prefab as MonoBehaviour, _parent.transform).
+                GetComponent<IGridElementView>();
+            
             cell.Initialize(position);
             return cell;
         }

@@ -28,6 +28,7 @@ namespace CompositionRoot
         [SerializeField] private MergeRepositoryContainer _mergeResultRepositoryContainer;
 
         [SerializeField] private GridElementRepository _spawnUnit;
+        [SerializeField] private GridColorizeRepositoryContainer _colorizeRepositoryContainer;
 
         private readonly GridModelFactory _factory = new GridModelFactory();
         private readonly CellPointer _pointer = new CellPointer();
@@ -37,7 +38,6 @@ namespace CompositionRoot
         private GridColorizeRepositoryCollection _colorizeCollection;
         private GridColorizer _colorizer;
 
-        private GridColorizeRepositoryContainer _colorizeRepositoryContainer;
         private GridViewDrawer _drawer;
 
         private GridDrawerService _drawerService;
@@ -52,7 +52,7 @@ namespace CompositionRoot
         private GridRandomPlaceUseCase _randomPlaceUseCase;
         private GridUnitSpawnUseCase _unitSpawnUseCase;
 
-        private GridViewSpawner _viewSpawner;
+        private GridViewFactory _viewFactory;
 
         private void Awake()
         {
@@ -60,10 +60,10 @@ namespace CompositionRoot
             _mergeCollection = new MergeRepositoryCollection(_mergeResultRepositoryContainer.Get());
             _colorizeCollection = new GridColorizeRepositoryCollection(_colorizeRepositoryContainer.Get());
 
-            _viewSpawner = new GridViewSpawner(_layoutGroup, _gridElementView);
+            _viewFactory = new GridViewFactory(_layoutGroup, _gridElementView);
 
             IGridModel gridModel = _factory.Create(_gridRepository);
-            IGridView gridView = _viewSpawner.SpawnGrid(new Vector2Int(gridModel.Width, gridModel.Height));
+            IGridView gridView = _viewFactory.Create(new Vector2Int(gridModel.Width, gridModel.Height));
             var unitFactory = new UnitFactory();
 
             _inputReader = new GridInputReader(gridView);

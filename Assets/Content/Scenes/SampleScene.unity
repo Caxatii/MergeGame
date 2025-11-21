@@ -429,8 +429,8 @@ MonoBehaviour:
   _layoutGroup: {fileID: 1739031248}
   _elementRepositoryContainer: {fileID: 11400000, guid: 8fa4a5f8117b21949be6325ca27a9c97, type: 2}
   _mergeResultRepositoryContainer: {fileID: 11400000, guid: 87c045eb2b3a2fe4bac67582e479d28c, type: 2}
-  _colorizeRepositoryContainer: {fileID: 11400000, guid: 4ca1092772714934090ef7a6b581623d, type: 2}
   _spawnUnit: {fileID: 11400000, guid: 549a11fc93aeb35489b408d4d7e36748, type: 2}
+  _colorizeRepositoryContainer: {fileID: 11400000, guid: 4ca1092772714934090ef7a6b581623d, type: 2}
 --- !u!1 &1739031246
 GameObject:
   m_ObjectHideFlags: 0

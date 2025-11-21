@@ -15,5 +15,6 @@ namespace ContractInterfaces.Presentation.Grid
         public void ResetBackgroundColor();
 
         public void Clear();
+        void Initialize(Vector2Int position);
     }
 }

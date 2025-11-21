@@ -7,13 +7,15 @@ using UnityEngine.UI;
 
 namespace Presentation
 {
-    public class GridElementView : GridElementViewBase, IPointerClickHandler
+    public class GridElementView : MonoBehaviour, IGridElementView, IPointerClickHandler
     {
         [SerializeField] private Image _background;
         [SerializeField] private Image _view;
-        [field: SerializeField] public override Vector2Int Position { get; protected set; }
+        [field: SerializeField] public Vector2Int Position { get; protected set; }
 
         private Color _defaultColor;
+
+        public event Action<IGridElementView> Clicked;
 
         private void Awake()
         {
@@ -26,30 +28,28 @@ namespace Presentation
             Clicked?.Invoke(this);
         }
 
-        public override event Action<IGridElementView> Clicked;
-
-        public override void Initialize(Vector2Int position)
+        public void Initialize(Vector2Int position)
         {
             Position = position;
         }
 
-        public override void Render(SpriteRenderer spriteRenderer)
+        public void Render(SpriteRenderer spriteRenderer)
         {
             _view.sprite = spriteRenderer.sprite;
             _view.color = spriteRenderer.color;
         }
 
-        public override void SetBackgroundColor(Color color)
+        public void SetBackgroundColor(Color color)
         {
             _background.color = color;
         }
 
-        public override void ResetBackgroundColor()
+        public void ResetBackgroundColor()
         {
             _background.color = _defaultColor;
         }
 
-        public override void Clear()
+        public void Clear()
         {
             _view.sprite = null;
             _view.color = Color.clear;
