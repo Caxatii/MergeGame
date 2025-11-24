@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace Application.Services.Grid.Cells
 {
-    public class CellStateRenderService : IService
+    public class CellStateRenderService : ICellStateRenderService
     {
         private readonly ICellPointer _cellPointer;
         private readonly ICellStateService _cellStateService;
@@ -19,7 +19,8 @@ namespace Application.Services.Grid.Cells
         private readonly ICellColorizeRepositoryCollection _colorizeRepositoryCollection;
         private readonly IGridModel _gridModel;
 
-        public CellStateRenderService(ICellStateService cellStateService,
+        public CellStateRenderService(
+            ICellStateService cellStateService,
             ICellPointer cellPointer,
             ICellColorizeRepositoryCollection colorizeRepositoryCollection,
             IGridColorizer colorizer,

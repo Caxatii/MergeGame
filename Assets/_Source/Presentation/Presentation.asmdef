@@ -1,6 +1,7 @@
 {
   "name": "Presentation",
   "references": [
-    "ContractInterfaces"
+    "ContractInterfaces",
+    "Unity.InputSystem"
   ]
 }

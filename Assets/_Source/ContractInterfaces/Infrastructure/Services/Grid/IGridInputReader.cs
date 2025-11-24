@@ -1,12 +1,11 @@
 using System;
+using ContractInterfaces.Application.Services;
 using UnityEngine;
 
 namespace ContractInterfaces.Infrastructure.Services.Grid
 {
-    public interface IGridInputReader : IDisposable
+    public interface IGridInputReader : IService
     {
-        public void Initialize();
-
         public event Action<Vector2Int> Clicked;
     }
 }

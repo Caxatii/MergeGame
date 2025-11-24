@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Application.UseCases.Grid
 {
-    public class GridMergeUseCase
+    public class GridMergeUseCase : IGridMergeUseCase
     {
         private readonly ICellPointer _cellPointer;
         private readonly IGridModel _gridModel;

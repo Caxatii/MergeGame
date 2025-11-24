@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6f82906755480291a78062adfbd890, type: 3}
   m_Name: GridElementRepository 1
   m_EditorClassIdentifier: 
-  _id: 1189d7b9-f557-44de-9094-23a93570e2e3
-  <Sprite>k__BackingField: {fileID: 7749924345294862794, guid: 038cc5e892b924c45b7361bbeab1bd52, type: 3}
+  _id: 46ba35b7-73f0-459f-851a-2a3a5eb12d79
+  <Sprite>k__BackingField: {fileID: 1107151497613553536, guid: 765a471bea56ccc4e9b210d9e24796b9, type: 3}

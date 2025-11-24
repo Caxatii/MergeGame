@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 852cb98e967c48f9995f4746f66107cb, type: 3}
   m_Name: Main Grid Repository
   m_EditorClassIdentifier: 
-  <Width>k__BackingField: 12
-  <Height>k__BackingField: 6
+  <Width>k__BackingField: 16
+  <Height>k__BackingField: 5

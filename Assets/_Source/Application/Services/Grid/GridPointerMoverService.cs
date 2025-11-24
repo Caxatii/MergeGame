@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Application.Services.Grid
 {
-    public class GridPointerMoverService : IService
+    public class GridPointerMoverService : IGridPointerMoverService
     {
         private readonly CellPointer _cellPointer;
         private readonly IGridInputReader _gridInputReader;

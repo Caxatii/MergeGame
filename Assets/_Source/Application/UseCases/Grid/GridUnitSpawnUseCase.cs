@@ -21,5 +21,9 @@ namespace Application.UseCases.Grid
         {
             _gridModel[position] = _factory.Create(id);
         }
+
+        public void Initialize() { }
+        
+        public void Dispose() { }
     }
 }

@@ -5,15 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20ed6b5f-d3af-49e1-a7fb-630accf6164f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Factories.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Bootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridViewSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridViewSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/GridElementViewBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/GridElementViewBase.cs.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/GameplayInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/GameplayInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/RandomSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/RepositoriesInstaller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/RepositoriesInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/ICellStateRenderService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/ICellStateRenderService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/ICursorCellDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/ICursorCellDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridDrawerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridDrawerService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridMergeUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridMergeUseCase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridPointerMoverService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridPointerMoverService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridRandomPlaceUseCase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridRandomPlaceUseCase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/ICursorCellView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/ICursorCellView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/CursorCellDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/CursorCellDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Presentation/CursorCellView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Source/Presentation/CursorCellView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MergeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MergeGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository 4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Infractructure/GridElemtnts/GridElementRepository.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Infractructure/Main Grid Repository.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Infractructure/Main Grid Repository.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Circle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Circle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/GridCell.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/GridCell.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Hexagon Flat-Top.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Hexagon Flat-Top.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Isometric Diamond tier2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Isometric Diamond tier2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Isometric Diamond.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Isometric Diamond.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Square.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Prefabs/GridElements/Square.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Content/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Content/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/Application.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Application.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/Cells/CellStateRenderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/Cells/CellStateRenderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridDrawerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridDrawerService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridPointerMoverService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/Services/Grid/GridPointerMoverService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridMergeUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridMergeUseCase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridRandomPlaceUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridRandomPlaceUseCase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridUnitSpawnUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridUnitSpawnUseCase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Bootstrap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/Bootstrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/CompositionRoot/RandomSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/UseCases/IGridUnitSpawnUseCase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/UseCases/IGridUnitSpawnUseCase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/ContractInterfaces.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/ContractInterfaces.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridColorizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridColorizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridInputReader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/IGridElementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/IGridElementView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Infrastructure.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Infrastructure.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/UnorderedGuidPair.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Data/UnorderedGuidPair.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/UnorderedGuidPair.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Data/UnorderedGuidPair.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridColorizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridColorizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridColorizer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridColorizer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridInputReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridInputReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridInputReader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridInputReader.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridViewDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewDrawer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridViewDrawer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Factories/GridViewFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Infrastructure/Factories/GridViewFactory.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Source/Presentation/GridElementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Presentation/GridElementView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Source/Presentation/Presentation.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Source/Presentation/Presentation.asmdef" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +107,25 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridRandomPlaceUseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Application/UseCases/Grid/GridUnitSpawnUseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/CompositionRoot/Bootstrap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/CompositionRoot/GameplayInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Factories/IGridModelFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Factories/IUnitFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/ICellStateRenderService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridDrawerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridMergeUseCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridPointerMoverService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IGridRandomPlaceUseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IMergeService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/Services/IService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Application/UseCases/IGridUnitSpawnUseCase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/ICell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/IGridModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Domain/IUnit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridColorizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/Services/Grid/IGridInputReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Infrastructure/View/Grid/IGridViewSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Presentation/Grid/GridElementViewBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/Cell/ICellColorizeRepositoryCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridElementRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/ContractInterfaces/Repositories/Grid/IGridElementRepositoryCollection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,9 +137,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Domain/DomainTransfer/DomainTransfer.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/CellPointer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Domain/Grid/Cells/ICellPointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Domain/Grid/GridModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Domain/Grid/Unit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Editor/ScriptableObjectContextMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Data/UnorderedGuidPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Factories/GridViewFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Infrastructure.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/CellStateColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Grid/GridColorizeRepositoryCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Collections/Grid/GridElementRepositoryCollection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,11 +154,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Grid/GridRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Merge/MergeRepositoryContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Repositories/Scriptable/Merge/MergeResultRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/UnorderedGuidPair.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridInputReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/CursorCellDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridColorizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridInputReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/Services/Grid/GridViewDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewDrawer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Source/Infrastructure/View/Grid/GridViewSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Source/Presentation/GridElementView.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -185,7 +262,9 @@
       <workItem from="1763557676542" duration="4044000" />
       <workItem from="1763578372664" duration="3881000" />
       <workItem from="1763735024446" duration="4260000" />
-      <workItem from="1763739582128" duration="3525000" />
+      <workItem from="1763739582128" duration="11606000" />
+      <workItem from="1763926846814" duration="6751000" />
+      <workItem from="1763933643968" duration="734000" />
     </task>
     <servers />
   </component>

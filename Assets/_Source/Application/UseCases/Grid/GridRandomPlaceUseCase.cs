@@ -1,4 +1,5 @@
 using System;
+using ContractInterfaces.Application.Services;
 using ContractInterfaces.Application.UseCases;
 using ContractInterfaces.Domain;
 using UnityEngine;
@@ -6,7 +7,7 @@ using Random = System.Random;
 
 namespace Application.UseCases.Grid
 {
-    public class GridRandomPlaceUseCase
+    public class GridRandomPlaceUseCase : IGridRandomPlaceUseCase
     {
         private readonly IGridModel _model;
 
@@ -43,5 +44,9 @@ namespace Application.UseCases.Grid
 
             return new Vector2Int(x, y);
         }
+
+        public void Initialize() { }
+
+        public void Dispose() { }
     }
 }

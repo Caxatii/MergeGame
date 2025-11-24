@@ -1,6 +1,7 @@
 {
   "name": "ContractInterfaces",
   "references": [
-    "DomainTransfer"
+    "DomainTransfer",
+    "VContainer"
   ]
 }

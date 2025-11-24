@@ -1,9 +1,20 @@
 {
-  "name": "Application",
-  "references": [
-    "ContractInterfaces",
-    "Domain",
-    "DomainTransfer",
-    "Reactive"
-  ]
+    "name": "Application",
+    "rootNamespace": "",
+    "references": [
+        "ContractInterfaces",
+        "Domain",
+        "DomainTransfer",
+        "Reactive",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

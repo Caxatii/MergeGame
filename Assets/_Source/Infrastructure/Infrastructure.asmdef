@@ -2,6 +2,7 @@
   "name": "Infrastructure",
   "references": [
     "ContractInterfaces",
+    "VContainer",
     "DomainTransfer"
   ]
 }

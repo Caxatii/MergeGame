@@ -15,6 +15,15 @@ namespace Presentation
 
         private Color _defaultColor;
 
+        public Vector2 WorldPosition => 
+            transform.position;
+
+        public Sprite Sprite => 
+            _view.sprite;
+
+        public Color Color => 
+            _view.color;
+
         public event Action<IGridElementView> Clicked;
 
         private void Awake()
@@ -33,10 +42,10 @@ namespace Presentation
             Position = position;
         }
 
-        public void Render(SpriteRenderer spriteRenderer)
+        public void Render(Sprite sprite, Color color)
         {
-            _view.sprite = spriteRenderer.sprite;
-            _view.color = spriteRenderer.color;
+            _view.sprite = sprite;
+            _view.color = color;
         }
 
         public void SetBackgroundColor(Color color)
@@ -53,6 +62,18 @@ namespace Presentation
         {
             _view.sprite = null;
             _view.color = Color.clear;
+            
+            ResetBackgroundColor();
+        }
+
+        public void Show()
+        {
+            _view.gameObject.SetActive(true);
+        }
+
+        public void Hide()
+        {
+            _view.gameObject.SetActive(false);
         }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Application.Services.Grid
 {
-    public class GridDrawerService : IService
+    public class GridDrawerService : IGridDrawerService
     {
         private readonly IGridDrawer _drawer;
         private readonly IGridModel _model;
